@@ -4,52 +4,6 @@ body {
     font-family: "Verdana", sans-serif;
 }
 
-nav {
-    background-color: rgb(118, 81, 96);
-    padding: 15px 20px;
-    box-shadow: 0 0 5px gray;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 10;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.brand {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.brand-name {
-    color: white;
-    font-style: italic;
-    font-size: 20px;
-}
-
-.links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-}
-
-.link {
-    color: white;
-    text-decoration: none;
-    margin: 5px 10px;
-    transition: 0.3s;
-}
-
-.link:hover, .link.active {
-    color: #fddde6;
-    text-decoration: underline;
-}
-
-
 .search-bar {
     margin-top: 100px;
     text-align: center;
