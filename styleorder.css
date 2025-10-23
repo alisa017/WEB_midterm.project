@@ -63,6 +63,11 @@ body {
   box-sizing: border-box;
 }
 
+select.info-box {
+  appearance: none;
+  cursor: pointer;
+}
+
 .thank-you {
   margin-top: 20px;
   font-style: italic;
