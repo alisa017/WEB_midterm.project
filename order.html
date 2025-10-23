@@ -25,8 +25,14 @@
         <input type="text" id="address" class="info-box" placeholder="Enter your shipping address">
 
         <label for="payment">Payment Method:</label>
-        <input type="text" id="payment" class="info-box" placeholder="e.g. GCash, Cash on Delivery">
-
+        <select id="payment" class="info-box">
+          <option value="" disabled selected>Select payment method</option>
+          <option value="gcash">GCash</option>
+          <option value="cod">Cash on Delivery</option>
+          <option value="credit">Credit Card</option>
+          <option value="paypal">PayPal</option>
+        </select>
+        
         <label for="message">Message or Notes for Order:</label>
         <textarea id="message" class="message-box" placeholder="Write a message or note here..."></textarea>
 
